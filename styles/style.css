@@ -1,0 +1,60 @@
+/* General */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Banner design */
+.banner {
+  background-color: rgba(147, 204, 218, 0.546);
+  border-radius: 20px;
+  margin: 70px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1200px;
+  height: 500px;
+}
+
+.banner-title {
+  padding: 50px 60px;
+}
+
+.banner-title p {
+  font-weight: bold;
+  color: rgb(96, 120, 143);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.banner-title h1 {
+  font-weight: bolder;
+  font-size: 55px;
+}
+
+.banner-title button {
+  margin-top: 15px;
+  width: 250px;
+  height: 50px;
+  border: none;
+  background-color: rgb(29, 105, 82);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.banner-title button:hover {
+  background-color: rgb(92, 137, 25);
+}
+
+.banner-img {
+  padding-right: 60px;
+
+}
+
+.banner-img img {
+  width: 420px;
+}
+
