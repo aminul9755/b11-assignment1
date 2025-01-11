@@ -88,6 +88,7 @@ main {
 .pillars-steps-title {
   margin-top: 12px;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .pillars-steps-details {
@@ -215,6 +216,12 @@ main {
   justify-content: space-between;
 }
 
+.recent-news2-content {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .satelite-img {
   border-radius: 20px;
 }
@@ -242,6 +249,10 @@ main {
   margin-top: 4px;
 }
 
+/* Satelites functions! */
 
+.recent-news2-details {
+  margin-right: 30px;
+}
 
 
