@@ -93,3 +93,97 @@ main {
 .pillars-steps-details {
   color: rgb(130, 130, 130);
 }
+
+/* The vision of future */
+
+.future-vision-section {
+  margin-top: 70px;
+}
+
+.future-vision-title {
+  font-size: 34px;
+  margin-bottom: 28px;
+}
+
+.future-vision-para {
+  color: rgb(105, 105, 105);
+  margin-bottom: 28px;
+}
+
+.digital-transformation {
+  background-color: rgb(188, 238, 255);
+  padding: 25px 25px;
+  border-radius: 14px;
+}
+
+.green-energy {
+  background-color: rgb(255, 170, 170);
+  padding: 25px 25px;
+  border-radius: 14px;
+}
+
+.modern-infrastructure {
+  background-color: rgb(193, 255, 221);
+  padding: 25px 25px;
+  border-radius: 14px;
+}
+
+.digi-trans-title,
+.green-energy-title,
+.modern-infrastructure-title {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.future-vision-steps {
+  display: flex;
+  column-gap: 10px;
+}
+
+.digital-transformation-para,
+.green-energy-para,
+.modern-infrastructure-para {
+  margin-top: 12px;
+  margin-bottom: 22px;
+  color: rgb(64, 64, 64);
+}
+
+.learn-more-btn {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(78, 125, 234);
+  color: rgb(229, 229, 229);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.green-energy-btn {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(161, 78, 234);
+  color: rgb(229, 229, 229);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.modern-infrastructure-btn {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(234, 114, 78);
+  color: rgb(229, 229, 229);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.learn-more-btn:hover,
+.green-energy-btn:hover,
+.modern-infrastructure-btn:hover {
+  background-color: cadetblue;
+}
