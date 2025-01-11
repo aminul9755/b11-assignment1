@@ -100,14 +100,16 @@ main {
   margin-top: 70px;
 }
 
-.future-vision-title {
+.future-vision-title,
+.recent-news-title {
   font-size: 34px;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 
-.future-vision-para {
+.future-vision-para,
+.recent-news-para {
   color: rgb(105, 105, 105);
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 
 .digital-transformation {
@@ -182,8 +184,64 @@ main {
   font-size: 16px;
 }
 
+.recent-news-btn {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(234, 114, 78);
+  color: rgb(229, 229, 229);
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 6px;
+}
+
 .learn-more-btn:hover,
 .green-energy-btn:hover,
-.modern-infrastructure-btn:hover {
+.modern-infrastructure-btn:hover,
+.recent-news-btn:hover {
   background-color: cadetblue;
 }
+
+/* Recent News */
+
+.recent-news {
+  margin-top: 80px;
+}
+
+.recent-news-content {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.satelite-img {
+  border-radius: 20px;
+}
+
+.recent-news-details {
+  margin-left: 30px;
+  margin-top: 8px;
+}
+
+.bd-satelite-title {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.al-jazeera-img {
+  margin-bottom: 10px;
+}
+
+.recent-news-date {
+  margin-bottom: 14px;
+  color: rgb(56, 56, 56);
+}
+
+.recent-news-para {
+  margin-top: 4px;
+}
+
+
+
+
