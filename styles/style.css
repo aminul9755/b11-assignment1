@@ -1,15 +1,20 @@
 /* General */
+
 *{
   margin: 0;
   padding: 0;
 }
 
+main {
+  margin: 70px 90px;
+  padding-bottom: 500px;
+}
 
 /* Banner design */
+
 .banner {
-  background-color: rgba(147, 204, 218, 0.546);
+  background-color: rgba(170, 239, 241, 0.546);
   border-radius: 20px;
-  margin: 70px 90px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -58,3 +63,33 @@
   width: 420px;
 }
 
+/* Pillar section */
+
+.pillars-section {
+  margin-top: 60px;
+}
+
+.pillars-all-steps {
+  border: 1px solid rgb(230, 230, 230);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.pillars-section h2 {
+  font-size: 34px;
+  margin-bottom: 50px;
+}
+
+.pillars-steps {
+  display: flex;
+  column-gap: 25px;
+}
+
+.pillars-steps-title {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.pillars-steps-details {
+  color: rgb(130, 130, 130);
+}
