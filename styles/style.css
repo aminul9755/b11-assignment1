@@ -48,6 +48,7 @@ main {
   font-size: 16px;
   font-weight: bold;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .banner-title button:hover {
@@ -73,6 +74,7 @@ main {
   border: 1px solid rgb(230, 230, 230);
   padding: 15px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .pillars-section h2 {
@@ -161,6 +163,7 @@ main {
   color: rgb(236, 236, 236);
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .green-energy-btn {
@@ -172,6 +175,7 @@ main {
   color: rgb(233, 233, 233);
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .modern-infrastructure-btn {
@@ -183,6 +187,7 @@ main {
   color: rgb(237, 237, 237);
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .recent-news-btn {
@@ -191,10 +196,11 @@ main {
   border: none;
   border-radius: 6px;
   background-color: rgb(255, 120, 78);
-  color: rgb(229, 229, 229);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 16px;
   margin-top: 6px;
+  cursor: pointer;
 }
 
 .learn-more-btn:hover,
@@ -202,6 +208,7 @@ main {
 .modern-infrastructure-btn:hover,
 .recent-news-btn:hover {
   background-color: cadetblue;
+  cursor: pointer;
 }
 
 /* Recent News */
@@ -289,10 +296,12 @@ main {
   background-color: rgb(255, 87, 58);
   color: white;
   margin-top: 8px;
+  cursor: pointer;
 }
 
 .donate-amount button:hover {
   background-color: rgb(255, 40, 2);
+  cursor: pointer;
 }
 
 .input-section {
@@ -325,12 +334,70 @@ input::placeholder {
   margin-top: 15px;
   background-color: rgb(24, 113, 230);
   color: white;
+  cursor: pointer;
 }
 
 .input-section button:hover {
   background-color: blue;
+  cursor: pointer;
 }
 
+/* subscribe section*/
+
+.subscribe{
+  margin-top: 60px;
+  background-color: rgb(207, 253, 255);
+  height: 300px;
+  padding: 70px 200px;
+  border-radius: 30px;
+}
+
+.subscribe-details {
+  align-items: center;
+  text-align: center;
+}
+
+.sub-title {
+  font-size: 34px;
+  margin-bottom: 24px;
+}
+
+.sub-para {
+  color: rgb(80, 80, 80);
+  margin-bottom: 15px;
+}
+
+.sub-input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-input-section button {
+  width: 220px;
+  height: 70px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(33, 242, 173);
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.sub-input-section button:hover {
+  background-color: chartreuse;
+}
+
+.sub-last-para {
+  margin-top: 24px;
+  color: rgb(114, 114, 114);
+}
+
+.sub-input {
+  border-radius: 4px;
+  height: 70px;
+  border-radius: 50px;
+}
 
 
 
